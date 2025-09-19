@@ -74,18 +74,6 @@ uv run pytest --cov=app
 uv run flake8 app tests
 uv run mypy app
 ```
-
-## Структура проекта
-
-```
-├── app/                    # Основной код приложения
-│   ├── api/               # FastAPI приложение
-│   ├── worker/            # RabbitMQ worker
-│   ├── models/            # SQLAlchemy модели
-│   ├── services/          # Бизнес-логика
-│   └── utils/             # Утилиты
-├── tests/                 # Тесты
-├── alembic/              # Миграции базы данных
 ├── uploads/              # Хранилище файлов
 ├── docker/               # Docker конфигурации
 └── docker-compose.yml    # Docker Compose
