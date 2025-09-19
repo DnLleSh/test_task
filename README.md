@@ -74,7 +74,3 @@ uv run pytest --cov=app
 uv run flake8 app tests
 uv run mypy app
 ```
-├── uploads/              # Хранилище файлов
-├── docker/               # Docker конфигурации
-└── docker-compose.yml    # Docker Compose
-```
